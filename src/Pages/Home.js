@@ -1,10 +1,14 @@
-import Header from '../Components/Header';
+import Nav from '../Components/Nav';
+import Hero from '../Components/Hero';
+import Specials from '../Components/Specials';
 import Footer from '../Components/Footer';
 
 function Home() {
     return (
      <>
-     <Header />
+     <Nav />
+     <Hero />
+     <Specials />
      <Footer />
      </>
     );

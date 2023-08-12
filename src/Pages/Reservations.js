@@ -1,10 +1,12 @@
-import Header from '../Components/Header';
+import Nav from '../Components/Nav';
+import Hero from '../Components/Hero';
 import Footer from '../Components/Footer';
 
 function Reservations() {
     return (
      <>
-     <Header />
+     <Nav />
+     <Hero />
      <Footer />
      </>
     );
