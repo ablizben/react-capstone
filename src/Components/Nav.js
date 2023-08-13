@@ -1,11 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import LittleLemonLogo from '../Assets/images/Logo.svg';
 
-
 function Nav() {
-
-
-
     return (
         <div className="NavBar">
             <div className="logo">

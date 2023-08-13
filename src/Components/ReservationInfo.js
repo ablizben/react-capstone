@@ -27,23 +27,19 @@ function ReservationInfo() {
         if (formData.email === "") {
             err.email = "Email is required" 
         }else{
-            let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+            let regex = /^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/
             if(!regex.test(formData.email)) {
                 err.email = "Valid email required"
             }
         }
-
-
         if (formData.telephone === "") {
             err.telephone = "Phone Number is required" 
         } else {
-            let phoneRegex = /^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d+)\)?)[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?)+)(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$/i
+            let phoneRegex = /^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d+)\)?)[ \\]?)?((?:\(?\d{1,}\)?[ \\]?)+)(?:[ \\]?(?:#|ext\.?|extension|x)[ \\]?(\d+))?$/i
             if(!phoneRegex.test(formData.telephone)) {
                 err.telephone = "Valid phone number is required"
             }
         }
-
-
         if (formData.guests === "") {
             err.guests = "Number of guests is required" 
         }

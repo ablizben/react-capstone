@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rock+Salt&family=Sacramento&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&family=Sofia+Sans:wght@100;200;300;400&display=swap");
-
 .App {
   text-align: center;
   font-family: "Sofia Sans", sans-serif;
 }
 
+/* Navigation */
 .NavBar {
   position: absolute;
   box-sizing: border-box;
@@ -51,7 +49,6 @@
   font-size: 2rem;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .nav-mid-links {
   position: relative;
   display: inline-block;
@@ -103,7 +100,7 @@ h2 {
   font-size: 16pt;
   font-weight: 600;
   background-color: #f4ce14;
-  color: #333333;
+  color: black;
   border-radius: 20px;
   border: none;
 }
@@ -418,10 +415,13 @@ select {
   transition: 0.3s;
 }
 
-.error-message {
-  font-size: 15px;
+.non-valid {
+  font-size: 12px;
+  font-weight: 500;
   color: red;
   margin-top: 5px;
+  margin-left: 5px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {

@@ -5,7 +5,7 @@ function Specials() {
      <>
       <div className="specials-section-container">
         <div className="specials-section-title">
-              <h1>This Week's Specials</h1>
+              <h1>Specials</h1>
         </div>
         <SpecialsCard />
       </div>
