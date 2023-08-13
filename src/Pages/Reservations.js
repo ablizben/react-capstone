@@ -1,12 +1,12 @@
 import Nav from '../Components/Nav';
-import Hero from '../Components/Hero';
+import ReservationInfo from '../Components/ReservationInfo';
 import Footer from '../Components/Footer';
 
 function Reservations() {
     return (
      <>
      <Nav />
-     <Hero />
+     <ReservationInfo />
      <Footer />
      </>
     );
