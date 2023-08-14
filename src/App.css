@@ -1,6 +1,13 @@
 .App {
   text-align: center;
   font-family: "Sofia Sans", sans-serif;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 /* Navigation */
@@ -130,6 +137,12 @@ h2 {
   width: 100%;
   border-radius: 10px;
   filter: brightness(100%);
+}
+
+@media (max-width: 659px) {
+  .image-box img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
